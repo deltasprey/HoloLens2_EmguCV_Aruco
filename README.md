@@ -1,7 +1,7 @@
 # HoloLens2_EmguCV_Aruco
 Tracking of a single ArUco marker using the webcam on the Microsoft HoloLens 2.
 
-# This project has not been tested on a HoloLens 2 yet
+**This project has not been tested on a HoloLens 2 yet**
 
 The position of the marker is tracked decently well but the rotation isn't, haven't figured out how to fix it. Camera calibration is required if any sort of accuracy is desired (which I haven't done).
 
