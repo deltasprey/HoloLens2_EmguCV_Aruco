@@ -1,9 +1,15 @@
 # HoloLens2_EmguCV_Aruco
 Tracking of a single ArUco marker using the webcam on the Microsoft HoloLens 2.
 
-**This project has not been tested on a HoloLens 2 yet**
+**This project could not be built to the HoloLens 2 and has not been tested as a result.**
 
 The position of the marker is tracked decently well but the rotation isn't, haven't figured out how to fix it. Camera calibration is required if any sort of accuracy is desired (which I haven't done).
+
+## 2D Tracking in Editor
+![2D Tracking of ArUco marker in Unity Editor](https://github.com/deltasprey/HoloLens2_EmguCV_Aruco/blob/main/2D%20tracking.png)
+
+## 3D Tracking in Editor
+![3D Tracking of ArUco marker in Unity Editor](https://github.com/deltasprey/HoloLens2_EmguCV_Aruco/blob/main/3D%20tracking.png)
 
 # Here are the steps to create a similar project of your own:
 1. Create a new 3D Core Unity project. Follow the steps in the tutorial to set it up for HoloLens development. https://learn.microsoft.com/en-us/training/paths/beginner-hololens-2-tutorials/  
